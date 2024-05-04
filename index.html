@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative 3D Space Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+<div class="container">
+    <canvas id="spaceCanvas"></canvas>
+    <div class="content">
+        <h1 class="animate__animated animate__bounceInDown">Welcome to Creative 3D Space Login</h1>
+        <form id="login-form" class="animate__animated animate__bounceInUp">
+            <div class="input-group">
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit" class="animate__animated animate__fadeIn">Login</button>
+        </form>
+        <div id="error-message" class="error-message animate__animated animate__fadeIn"></div>
+        <div class="extras animate__animated animate__fadeIn">
+            <a href="#">Forgot password?</a>
+            <a href="#">Create an account</a>
+        </div>
+        <div class="credit">
+            <p>Crafted with love by Taha Idra</p>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

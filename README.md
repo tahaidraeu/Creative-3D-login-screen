@@ -1,7 +1,5 @@
 # Creative 3D Space Login Page
 
-![Creative 3D Space Login Page](screenshot.png)
-
 This project is a login page designed with a creative 3D space background using Three.js. It provides a visually appealing interface for users to log in.
 
 ## Features
